@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web3 DApp - SimpleStorage</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.8.2/dist/web3.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Web3 DApp - SimpleStorage</h1>
+    <button id="connectButton">MetaMask Cüzdanını Bağla</button>
+    <p id="account">Bağlı Hesap: -</p>
+
+    <div class="form">
+      <input type="number" id="inputValue" placeholder="Sayı girin" />
+      <button id="setButton">Değeri Ayarla</button>
+      <button id="getButton">Değeri Oku</button>
+    </div>
+
+    <p id="status">Durum: -</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
